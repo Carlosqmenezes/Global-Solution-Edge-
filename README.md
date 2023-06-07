@@ -18,7 +18,7 @@ Para instalar e executar este projeto, você precisará das seguintes ferramenta
 
 1. Faça o download do código da pasta "Codigo Fonte" presente neste repositório.
 2. Abra o código no Arduino IDE e carregue-o para o seu Arduino.
-3. Conecte os sensores de acordo com a imagem fornecidas neste repositório.
+3. Conecte o sensor e o display LCD de acordo com a imagem fornecidas na pasta "imagens" presente neste repositório.
 
 ## Utilização
 
