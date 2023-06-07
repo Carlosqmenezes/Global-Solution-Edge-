@@ -2,11 +2,11 @@
 // Global Solution - EDGE
 //---------------------------------------//
 /*
-RM99849  - Carlos Eduardo de Queiroz Menezes 
+RM99849  - Carlos Eduardo de Queiroz Menezes
 RM97648  - Cauã Gonçalves de Jesus
-RM551605 - Davi Passanha de Sousa Guerra 
+RM551605 - Davi Passanha de Sousa Guerra
 RM98047  - Luigi Ferrara Sinno
-RM98436  - Rui Amorim Siqueira 
+RM98436  - Rui Amorim Siqueira
 */
 // Carrega a biblioteca LiquidCrystal
 #include <LiquidCrystal.h>
