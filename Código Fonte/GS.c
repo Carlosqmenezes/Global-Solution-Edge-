@@ -14,10 +14,6 @@ RM98436  - Rui Amorim Siqueira
 // Define os pinos que serão utilizados para ligação ao display
 LiquidCrystal lcd(12, 11, 7, 6, 5, 4);
 
-// definir as variaveis para a utilização da função `millis()`
-unsigned long tempoAntes = 0; // armazena o tempo atual
-unsigned long tempo = 5000;   // Intervalo de 5 segundos
-
 // difinição de variaveis
 const int analogIn = A0;
 int RawValue = 0;
@@ -33,16 +29,16 @@ void setup()
 
 void loop()
 {
-    //--------Obtém o tempo atual -------//
+   
 
-    //---------------- DHT11-------------//
+    //---------------- TMP36 -------------//
     RawValue = analogRead(analogIn);
     tempC = (((RawValue / 1023.0) * 5000) - 500) * 0.1; // 500 is the offset
     Serial.print("\t Temperature in C = ");
     Serial.print(tempC, 1);
     Serial.println("");
 
-    // ---------- Término do DHT11--------//
+    // ---------- Término do TMP36 --------//
     Temperatura = tempC;
 
     //--------------------------------------------------------------------------//
